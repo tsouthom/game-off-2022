@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b776810ebfa374d7ba8f0fb5ed6e3265, type: 3}
   m_Name: AC_SettingsManager
   m_EditorClassIdentifier: 
-  separateEditorSaveFiles: 0
-  saveFileName: 
+  separateEditorSaveFiles: 1
+  saveFileName: gameoff
   saveTimeDisplay: 0
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
@@ -21,9 +21,9 @@ MonoBehaviour:
   screenshotResolutionFactor: 1
   useProfiles: 0
   maxSaves: 5
-  orderSavesByUpdateTime: 0
+  orderSavesByUpdateTime: 1
   reloadSceneWhenLoading: 0
-  saveWithThreading: 0
+  saveWithThreading: 1
   saveAssetReferencesWithAddressables: 0
   saveLabels:
     defaultSaveLabel: Save
@@ -35,7 +35,7 @@ MonoBehaviour:
   referenceScenesInSave: 0
   sceneAttributes: []
   actionListOnStart: {fileID: 0}
-  blackOutWhenSkipping: 0
+  blackOutWhenSkipping: 1
   playerSwitching: 1
   player: {fileID: 0}
   players: []
@@ -56,18 +56,18 @@ MonoBehaviour:
   allowDefaultinteractions: 0
   alwaysCloseInteractionMenus: 1
   whenReselectHotspot: 0
-  lockCursorOnStart: 0
-  hideLockedCursor: 0
+  lockCursorOnStart: 1
+  hideLockedCursor: 1
   disableFreeAimWhenDragging: 0
   disableFreeAimWhenDraggingPickUp: 0
-  runConversationsWithKeys: 0
+  runConversationsWithKeys: 1
   clickUpInteractions: 0
   defaultMouseClicks: 1
   allowGameplayDuringConversations: 0
   walkToHotspotMarkers: 1
   dragThreshold: 0
   shareInventory: 0
-  inventoryDragDrop: 0
+  inventoryDragDrop: 1
   dragDropThreshold: 0
   allowInventoryInteractionsDuringConversations: 0
   inventoryDropLook: 0
@@ -85,7 +85,7 @@ MonoBehaviour:
   canReorderItems: 0
   selectInventoryDisplay: 0
   rightClickInventory: 0
-  reverseInventoryCombinations: 0
+  reverseInventoryCombinations: 1
   canMoveWhenActive: 1
   selectInvWithUnhandled: 0
   selectInvWithIconID: 0
@@ -135,14 +135,14 @@ MonoBehaviour:
   touchUpWhenPaused: 0
   touchUpInteractScene: 0
   forceAspectRatio: 0
-  aspectRatioEnforcement: 0
-  wantedAspectRatio: 1.5
+  aspectRatioEnforcement: 1
+  wantedAspectRatio: 1.667
   maxAspectRatio: 2.39
   renderBorderCamera: 1
   landscapeModeOnly: 1
-  cameraPerspective: 2
+  cameraPerspective: 0
   cacheCameraMain: 0
-  linearColorTextures: 0
+  linearColorTextures: 1
   movingTurning: 3
   hotspotDetection: 0
   closeInteractionMenusIfPlayerLeavesVicinity: 0
@@ -204,10 +204,10 @@ MonoBehaviour:
   crossfadeMusicWhenLoading: 0
   restartMusicTrackWhenLoading: 0
   autoEndOtherMusicWhenPlayed: 1
-  volumeControl: 0
+  volumeControl: 1
   musicMixerGroup: {fileID: 0}
   sfxMixerGroup: {fileID: 0}
-  speechMixerGroup: {fileID: 0}
+  speechMixerGroup: {fileID: 24300002, guid: 2347fe0e02f5b43d0979e25abe1ab6aa, type: 2}
   musicAttentuationParameter: musicVolume
   sfxAttentuationParameter: sfxVolume
   speechAttentuationParameter: speechVolume
@@ -219,5 +219,5 @@ MonoBehaviour:
   defaultSpeechVolume: 1
   showDebugLogs: 0
   printActionCommentsInConsole: 0
-  actionCommentLogging: 0
-  showActiveActionLists: 0
+  actionCommentLogging: 1
+  showActiveActionLists: 1
