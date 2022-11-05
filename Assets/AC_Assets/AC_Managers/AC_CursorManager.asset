@@ -32,7 +32,7 @@ MonoBehaviour:
   onlyAnimateOverHotspots: 0
   leftClickExamine: 0
   onlyWalkWhenOverNavMesh: 0
-  onlyShowInventoryLabelOverHotspots: 0
+  onlyShowInventoryLabelOverHotspots: 1
   inventoryCursorSize: 0.06
   allowIconInput: 1
   waitIcon:
@@ -100,7 +100,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  inventoryHandling: 0
+  inventoryHandling: 2
   hotspotPrefix1:
     label: Use
     lineID: -1
@@ -166,7 +166,10 @@ MonoBehaviour:
     label: Look at
     lineID: -1
     id: 2
-  unhandledCursorInteractions: []
+  unhandledCursorInteractions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   onlyShowCursorLabelOverHotspots: 0
   allowCursorCyclingWhenPaused: 0

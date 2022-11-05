@@ -185,7 +185,7 @@ MonoBehaviour:
   deactivatedLayer: Ignore Raycast
   useLoadingScreen: 0
   manualSceneActivation: 0
-  loadingSceneIs: 0
+  loadingSceneIs: 1
   loadScenesFromAddressable: 0
   loadingSceneName: 
   loadingScene: 0
@@ -205,9 +205,9 @@ MonoBehaviour:
   restartMusicTrackWhenLoading: 0
   autoEndOtherMusicWhenPlayed: 1
   volumeControl: 1
-  musicMixerGroup: {fileID: 0}
-  sfxMixerGroup: {fileID: 0}
-  speechMixerGroup: {fileID: 24300002, guid: 2347fe0e02f5b43d0979e25abe1ab6aa, type: 2}
+  musicMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
+  sfxMixerGroup: {fileID: 4236612142185565396, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
+  speechMixerGroup: {fileID: 6437091645939412092, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   musicAttentuationParameter: musicVolume
   sfxAttentuationParameter: sfxVolume
   speechAttentuationParameter: speechVolume
