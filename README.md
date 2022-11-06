@@ -1,4 +1,4 @@
-# Game Off 2022: The Origin (working title)
+# The Origin (working title)
 
 ## Team
 @tsouthom @giorgospetkakis @zansot
