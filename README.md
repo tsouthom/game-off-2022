@@ -1,7 +1,7 @@
-# Game-Off 2022: [PROJECT NAME]
+# Game Off 2022: The Origin (working title)
 
 ## Team
-tsouthom
+@tsouthom @giorgospetkakis @zansot
 
 ## Summary
 
