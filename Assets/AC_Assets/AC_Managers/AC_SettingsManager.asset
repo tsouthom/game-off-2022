@@ -190,7 +190,7 @@ MonoBehaviour:
   loadingSceneName: Loading
   loadingScene: 0
   useAsyncLoading: 1
-  loadingDelay: 0
+  loadingDelay: 0.25
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
   playMusicWhilePaused: 0
@@ -220,9 +220,9 @@ MonoBehaviour:
   musicMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   sfxMixerGroup: {fileID: 4236612142185565396, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   speechMixerGroup: {fileID: 6437091645939412092, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
-  musicAttentuationParameter: musicVolume
-  sfxAttentuationParameter: sfxVolume
-  speechAttentuationParameter: speechVolume
+  musicAttentuationParameter: music
+  sfxAttentuationParameter: sfx
+  speechAttentuationParameter: speech
   defaultLanguage: 0
   defaultVoiceLanguage: 0
   defaultShowSubtitles: 0
