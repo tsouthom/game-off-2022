@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 1
   saveFileName: theorigin
-  saveTimeDisplay: 0
+  saveTimeDisplay: 1
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
   saveScreenshots: 0

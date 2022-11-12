@@ -2048,7 +2048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4164561343619764540, guid: 505d9b3f1b4f343b4b7723e54f2d628e, type: 3}
       propertyPath: m_Name
-      value: LoadGame_Button
+      value: Continue_Button
       objectReference: {fileID: 0}
     - target: {fileID: 4164561343619764540, guid: 505d9b3f1b4f343b4b7723e54f2d628e, type: 3}
       propertyPath: m_IsActive
