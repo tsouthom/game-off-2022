@@ -195,7 +195,19 @@ MonoBehaviour:
   spawnPersistentEnginePrefab: 1
   playMusicWhilePaused: 0
   playAmbienceWhilePaused: 0
-  musicStorages: []
+  musicStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: d00660c274dde4459a75344cecb9a717, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
+  - ID: 1
+    audioClip: {fileID: 8300000, guid: de4c859314e7d499d8c33f1ddef9d515, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
+  - ID: 2
+    audioClip: {fileID: 8300000, guid: f6530d09c5f054dc8941fa4f13922524, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0

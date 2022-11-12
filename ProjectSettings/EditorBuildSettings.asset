@@ -12,7 +12,28 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 8496c1614c6764b8499ca25e6bbd4ce0
   - enabled: 1
-    path: Assets/Scenes/Start.unity
-    guid: 16a3bb3ceba804c918fdd0774c436657
+    path: Assets/Scenes/Credits.unity
+    guid: 75df638d5de414f1fa0384fcd74ed310
+  - enabled: 1
+    path: Assets/Scenes/_Game/1_TheTower.unity
+    guid: fc113c3c0cb7b47b097edefaca4b7b40
+  - enabled: 1
+    path: Assets/Scenes/_Game/2_TheGallery.unity
+    guid: 7bdda0ace94694713b274629544b7ef6
+  - enabled: 1
+    path: Assets/Scenes/_Game/3_TheBar.unity
+    guid: 0b516102fd8c74a4d8ff4689802d1ca1
+  - enabled: 1
+    path: Assets/Scenes/_Game/4_TheLibrary.unity
+    guid: 268a7dcb7aa4c4165be4a85eb6ae2d09
+  - enabled: 1
+    path: Assets/Scenes/_Game/5_TheSchool.unity
+    guid: 7ad3b64c4962042e687434228681d4ce
+  - enabled: 1
+    path: Assets/Scenes/_Game/6_TheTower.unity
+    guid: 856f5bdd7e53448edbc8465262ea0762
+  - enabled: 1
+    path: Assets/Scenes/_Game/7_TheOrigin.unity
+    guid: 15798f86a0a744a018acb66652673678
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 8dd91947063094609b778079edda7124, type: 2}
