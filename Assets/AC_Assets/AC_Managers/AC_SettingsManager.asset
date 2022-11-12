@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: AC_SettingsManager
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 1
-  saveFileName: gameoff
+  saveFileName: theorigin
   saveTimeDisplay: 0
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
   saveScreenshots: 0
   screenshotResolutionFactor: 1
   useProfiles: 0
-  maxSaves: 5
+  maxSaves: 1
   orderSavesByUpdateTime: 1
   reloadSceneWhenLoading: 0
   saveWithThreading: 1
