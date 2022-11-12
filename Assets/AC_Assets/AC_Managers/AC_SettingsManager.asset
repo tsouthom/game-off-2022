@@ -121,7 +121,18 @@ MonoBehaviour:
   freeAimSmoothSpeed: 50
   firstPersonMovementSmoothing: 1
   assumeInputsDefined: 0
-  activeInputs: []
+  activeInputs:
+  - label: Menu
+    ID: 1
+    inputName: 
+    enabledOnStart: 1
+    gameState: 0
+    gameStateFlags: 1
+    actionListAsset: {fileID: 0}
+    inputType: 0
+    axisThreshold: 0.2
+    buttonType: 0
+    hasUpgraded: 1
   freeAimTouchSpeed: 0.01
   dragWalkThreshold: 5
   dragRunThreshold: 20
