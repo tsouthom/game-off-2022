@@ -5580,7 +5580,7 @@ MonoBehaviour:
   textEffects: 0
   outlineSize: 2
   buttonClickType: 3
-  actionList: {fileID: 0}
+  actionList: {fileID: 11400000, guid: c231ffea97c8d4e0b8bbadaa22d2c8e1, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0

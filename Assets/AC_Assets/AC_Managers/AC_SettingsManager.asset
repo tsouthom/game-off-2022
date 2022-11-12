@@ -22,7 +22,7 @@ MonoBehaviour:
   useProfiles: 0
   maxSaves: 1
   orderSavesByUpdateTime: 1
-  reloadSceneWhenLoading: 0
+  reloadSceneWhenLoading: 1
   saveWithThreading: 1
   saveAssetReferencesWithAddressables: 0
   saveLabels:
@@ -190,7 +190,7 @@ MonoBehaviour:
   loadingSceneName: Loading
   loadingScene: 0
   useAsyncLoading: 1
-  loadingDelay: 1
+  loadingDelay: 0
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
   playMusicWhilePaused: 0
