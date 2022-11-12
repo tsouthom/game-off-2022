@@ -17,16 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Game/1_TheTower.unity
     guid: fc113c3c0cb7b47b097edefaca4b7b40
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/_Game/2_TheGallery.unity
     guid: 7bdda0ace94694713b274629544b7ef6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/_Game/3_TheBar.unity
     guid: 0b516102fd8c74a4d8ff4689802d1ca1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/_Game/4_TheLibrary.unity
     guid: 268a7dcb7aa4c4165be4a85eb6ae2d09
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/_Game/5_TheSchool.unity
     guid: 7ad3b64c4962042e687434228681d4ce
   - enabled: 1

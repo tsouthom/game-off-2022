@@ -37,7 +37,7 @@ MonoBehaviour:
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 1
   playerSwitching: 1
-  player: {fileID: 0}
+  player: {fileID: 436939059892057509, guid: e7efe7265de234036911d92b767920a6, type: 3}
   players: []
   movementMethod: 0
   inputMethod: 0
