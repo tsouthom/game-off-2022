@@ -3845,12 +3845,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 2
   canvas: {fileID: 0}
   canvasAssetKey: 
-  canvasID: 0
+  canvasID: 265804
   rectTransform: {fileID: 0}
-  rectTransformID: 0
+  rectTransformID: 265852
   uiTransitionType: 0
   uiPositionType: 0
   _isLocked: 0
@@ -4843,7 +4843,7 @@ MonoBehaviour:
   rectTransformID: 310968
   uiTransitionType: 1
   uiPositionType: 0
-  _isLocked: 0
+  _isLocked: 1
   id: 12
   title: Pause
   manualSize: {x: 17, y: 30.001}
@@ -6078,7 +6078,7 @@ MonoBehaviour:
   rectTransformID: 1765320
   uiTransitionType: 1
   uiPositionType: 0
-  _isLocked: 0
+  _isLocked: 1
   id: 3
   title: Inventory
   manualSize: {x: 100, y: 12.60303}
