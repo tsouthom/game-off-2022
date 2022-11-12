@@ -16,7 +16,19 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: df2eac6085d3f4404a1158715ded15c4
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: de4c859314e7d499d8c33f1ddef9d515
+    m_Address: Assets/Sound/Music/library.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d00660c274dde4459a75344cecb9a717
+    m_Address: Assets/Sound/Music/theme.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6530d09c5f054dc8941fa4f13922524
+    m_Address: Assets/Sound/Music/therapy.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 28d74702cfa1f41dda696be8dfd7069e, type: 2}
   m_SchemaSet:
