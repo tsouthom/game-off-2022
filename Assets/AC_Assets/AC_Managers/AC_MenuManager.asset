@@ -552,7 +552,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 24.664932
-    y: 181.9948
+    y: 103.329865
     width: 900.17993
     height: 54
   relativePosition: {x: 0, y: 0}
@@ -2796,7 +2796,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 24.664932
-    y: 260.65973
+    y: 181.9948
     width: 900.17993
     height: 54
   relativePosition: {x: 0, y: 0}
@@ -3113,7 +3113,7 @@ MonoBehaviour:
   _isLocked: 0
   id: 0
   title: Options
-  manualSize: {x: 52.739994, y: 45.986526}
+  manualSize: {x: 52.739994, y: 38.70274}
   positionType: 0
   manualPosition: {x: 960, y: 540}
   positionSmoothing: 0
@@ -3132,7 +3132,6 @@ MonoBehaviour:
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
   - {fileID: 1808985827073865276}
-  - {fileID: 5415111912981680711}
   - {fileID: -8208316709181480806}
   - {fileID: -2175979137203385112}
   - {fileID: 8096208080137724723}
@@ -3195,13 +3194,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 924.84485, y: 471.98956}
+  biggestElementSize: {x: 924.84485, y: 393.32465}
   rect:
     serializedVersion: 2
     x: 485.24512
-    y: 291.67276
+    y: 331.00522
     width: 949.50977
-    height: 496.65448
+    height: 417.98956
   showInFilter: 1
 --- !u!114 &-791238935303704614
 MonoBehaviour:
@@ -4581,7 +4580,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 24.664932
-    y: 417.98956
+    y: 339.32465
     width: 648.1296
     height: 54
   relativePosition: {x: 0, y: 0}
@@ -5806,7 +5805,7 @@ MonoBehaviour:
   fontScaleFactor: 3.5
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 1
   gridWidth: 3
@@ -6494,7 +6493,7 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 24.664932
-    y: 339.32465
+    y: 260.65973
     width: 900.17993
     height: 54
   relativePosition: {x: 0, y: 0}
