@@ -2788,7 +2788,7 @@ MonoBehaviour:
   singleSlotBackgrounds: 0
   highlightTexture: {fileID: 0}
   hoverSound: {fileID: 0}
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: eeaeb0dedc75343ce858133a237b190f, type: 3}
   changeCursor: 0
   cursorID: 0
   linkedUiID: 776016
