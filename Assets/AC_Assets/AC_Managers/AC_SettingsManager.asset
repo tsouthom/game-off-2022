@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: AC_SettingsManager
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 1
-  saveFileName: gameoff
-  saveTimeDisplay: 0
+  saveFileName: theorigin
+  saveTimeDisplay: 1
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
   saveScreenshots: 0
   screenshotResolutionFactor: 1
   useProfiles: 0
-  maxSaves: 5
+  maxSaves: 1
   orderSavesByUpdateTime: 1
-  reloadSceneWhenLoading: 0
+  reloadSceneWhenLoading: 1
   saveWithThreading: 1
   saveAssetReferencesWithAddressables: 0
   saveLabels:
@@ -37,7 +37,7 @@ MonoBehaviour:
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 1
   playerSwitching: 1
-  player: {fileID: 0}
+  player: {fileID: 436939059892057509, guid: e7efe7265de234036911d92b767920a6, type: 3}
   players: []
   movementMethod: 0
   inputMethod: 0
@@ -56,8 +56,8 @@ MonoBehaviour:
   allowDefaultinteractions: 0
   alwaysCloseInteractionMenus: 1
   whenReselectHotspot: 0
-  lockCursorOnStart: 1
-  hideLockedCursor: 1
+  lockCursorOnStart: 0
+  hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   disableFreeAimWhenDraggingPickUp: 0
   runConversationsWithKeys: 1
@@ -121,7 +121,18 @@ MonoBehaviour:
   freeAimSmoothSpeed: 50
   firstPersonMovementSmoothing: 1
   assumeInputsDefined: 0
-  activeInputs: []
+  activeInputs:
+  - label: Menu
+    ID: 1
+    inputName: 
+    enabledOnStart: 1
+    gameState: 0
+    gameStateFlags: 1
+    actionListAsset: {fileID: 0}
+    inputType: 0
+    axisThreshold: 0.2
+    buttonType: 0
+    hasUpgraded: 1
   freeAimTouchSpeed: 0.01
   dragWalkThreshold: 5
   dragRunThreshold: 20
@@ -183,19 +194,31 @@ MonoBehaviour:
   navMeshLayer: NavMesh
   backgroundImageLayer: BackgroundImage
   deactivatedLayer: Ignore Raycast
-  useLoadingScreen: 0
+  useLoadingScreen: 1
   manualSceneActivation: 0
   loadingSceneIs: 1
   loadScenesFromAddressable: 0
-  loadingSceneName: 
+  loadingSceneName: Loading
   loadingScene: 0
-  useAsyncLoading: 0
-  loadingDelay: 0
+  useAsyncLoading: 1
+  loadingDelay: 0.25
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
   playMusicWhilePaused: 0
   playAmbienceWhilePaused: 0
-  musicStorages: []
+  musicStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: d00660c274dde4459a75344cecb9a717, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
+  - ID: 1
+    audioClip: {fileID: 8300000, guid: de4c859314e7d499d8c33f1ddef9d515, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
+  - ID: 2
+    audioClip: {fileID: 8300000, guid: f6530d09c5f054dc8941fa4f13922524, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
@@ -208,9 +231,9 @@ MonoBehaviour:
   musicMixerGroup: {fileID: 8214720706908431829, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   sfxMixerGroup: {fileID: 4236612142185565396, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
   speechMixerGroup: {fileID: 6437091645939412092, guid: d2af29db3a1a24009a1fb6069ea569f1, type: 2}
-  musicAttentuationParameter: musicVolume
-  sfxAttentuationParameter: sfxVolume
-  speechAttentuationParameter: speechVolume
+  musicAttentuationParameter: music
+  sfxAttentuationParameter: sfx
+  speechAttentuationParameter: speech
   defaultLanguage: 0
   defaultVoiceLanguage: 0
   defaultShowSubtitles: 0
