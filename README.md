@@ -21,5 +21,6 @@ The latest builds can be found in the Releases section.
 
 |                 |                   |
 | --------------- | ----------------- |
-|     Engine      |    Unity 2021.3   |
+| Engine          | Unity 2021.3      |
 | External Assets | Adventure Creator |
+|                 | Stable Diffusion  |
