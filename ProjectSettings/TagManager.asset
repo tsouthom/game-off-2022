@@ -42,9 +42,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background Columns
+    uniqueID: 4250375531
+    locked: 0
+  - name: Background Books
+    uniqueID: 2376115233
+    locked: 0
   - name: Books
-    uniqueID: 1683299915
+    uniqueID: 1718198349
+    locked: 0
+  - name: Columns
+    uniqueID: 4113739183
     locked: 0
   - name: Player
     uniqueID: 2696057751
+    locked: 0
+  - name: Foreground
+    uniqueID: 3812434571
     locked: 0
