@@ -147,7 +147,7 @@ MonoBehaviour:
   touchUpInteractScene: 0
   forceAspectRatio: 0
   aspectRatioEnforcement: 1
-  wantedAspectRatio: 1.667
+  wantedAspectRatio: 1.7777778
   maxAspectRatio: 2.39
   renderBorderCamera: 0
   landscapeModeOnly: 1
