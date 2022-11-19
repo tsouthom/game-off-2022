@@ -78,16 +78,16 @@ OR NOT? I don't know, I haven't figured it out yet what happens after this. Mayb
 * The Government House connects to an abandoned School through the Official's Lounge; the underground network uses this to enter and leave Government House unnoticed.
 
 ## Assets, Initial Draft at Complete List
-The vault notebook
-The vault pass-key
-Assistant librarian's keycard
-A rare manuscript on ancient Roman flora and fauna
-A computer terminal
+* The vault notebook
+* The vault pass-key
+* Assistant librarian's keycard
+* A rare manuscript on ancient Roman flora and fauna
+* A computer terminal
 
 ## Characters
-The barman
-The librarian
-The thief
-The sister
-The official at Government House
-The father
+* The barman
+* The librarian
+* The thief
+* The sister
+* The official at Government House
+* The father
