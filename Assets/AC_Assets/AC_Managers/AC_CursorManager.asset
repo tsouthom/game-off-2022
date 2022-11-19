@@ -25,7 +25,7 @@ MonoBehaviour:
   walkPrefix:
     label: Walk to
     lineID: -1
-  addHotspotPrefix: 0
+  addHotspotPrefix: 1
   allowInteractionCursor: 0
   allowInteractionCursorForInventory: 0
   cycleCursors: 0
