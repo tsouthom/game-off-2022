@@ -57,6 +57,9 @@ TagManager:
   - name: Columns
     uniqueID: 4113739183
     locked: 0
+  - name: Vault
+    uniqueID: 3425221881
+    locked: 0
   - name: Floor
     uniqueID: 729640265
     locked: 0

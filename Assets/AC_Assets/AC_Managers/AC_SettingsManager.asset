@@ -60,7 +60,7 @@ MonoBehaviour:
   hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   disableFreeAimWhenDraggingPickUp: 0
-  runConversationsWithKeys: 1
+  runConversationsWithKeys: 0
   clickUpInteractions: 0
   defaultMouseClicks: 1
   allowGameplayDuringConversations: 0
@@ -178,9 +178,9 @@ MonoBehaviour:
   highlightMaterialPropertyOverride: 
   disableHotspotsWhileDraggingPlayer: 1
   hotspotIconSize: 0.04
-  playerFacesHotspots: 0
+  playerFacesHotspots: 1
   onlyFaceHotspotOnSelect: 0
-  scaleHighlightWithMouseProximity: 0
+  scaleHighlightWithMouseProximity: 1
   highlightProximityFactor: 4
   occludeIcons: 0
   hideIconUnderInteractionMenu: 0

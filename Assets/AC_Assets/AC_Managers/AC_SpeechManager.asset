@@ -17,7 +17,7 @@ MonoBehaviour:
   textScrollSpeed: 50
   textScrollCLip: {fileID: 0}
   narrationTextScrollCLip: {fileID: 0}
-  playScrollAudioEveryCharacter: 1
+  playScrollAudioEveryCharacter: 0
   speechScrollAudioSource: 0
   waitTimeOffset: 0
   displayForever: 0
