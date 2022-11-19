@@ -2,26 +2,30 @@
 
 ## Quick Notes
 - The protagonist's name is Angela, she is 23 years old and an aspiring writer. She has participated in many short stories competitions in school and have won praise as an up-and-coming Creativity beacon.
-- The thief will not have a connection with the protagonist's mother. In fact, I have taken the mother out as to not add more characters yet.
+- The thief will not have a connection with the protagonist's mother. In fact, I have taken the mother out as to not add any more characters yet.
 
 ## The Story
 
 #### Scene 1 [Competition Grounds]:
-Angela is participating in a writing competition; at one of the competition stages, she has to present an original idea; the interviewer asks her about her idea, only for Angela to answer disappointgly (Convo). The interviewer will turn her down but will be encouraging; she will encourage Angela to go out there and seek her own ideas, be innovative, creative. Angela will leave the competition disappointed but with a fire burning within her - she knows she can do this and she will find her unique idea!
+Angela is participating in a writing competition. During one of the competition stages, she has to present an original idea. The interviewer asks her about her idea, only for Angela to answer disappointgly (Convo). The interviewer will turn her down but will be encouraging; she will encourage Angela to go out there and seek her own ideas, be innovative, creative. 
+Angela will leave the competition disappointed but with a fire burning within her - she knows she can do this and she will find her unique idea!
 
 #### Scene 2 [Street]:
-Angela walks down the street (which will serve as the main connecting avenue between scenes) and decides to take a break for the day and hit a nearby bar.
+Angela walks down the street and decides to take a break for the day and hit a nearby bar.
+* The street will serve as the main connecting avenue between scenes; all building visited will be accessed through the street scene.
 
 #### Scene 3 [Bar]:
-Angela gets into a bar. She is a regular there and she greets the barman, and proceeds to tell him about her day. She tests a few ideas with him (Convo) and he makes fun of all three (in a familiar, encouraging way, he is her friend). The barman reminds her that he used to be digital crime investigator for the City Police (later clue) before his current situation and that nothing gets past him, certainly not a bad plot. They laugh and he proceeds to fix her a drink. 
+Angela gets into the bar. She is a regular there and she greets the barman, and proceeds to tell him about her day. She tests a few ideas with him (Convo) and he makes fun of all three (in a familiar, encouraging way, he is her friend). The barman reminds her that he used to be a Digital Crime Investigator for the City Police (later clue) before dropping everything for a less stressful life as a barman, and that nothing gets past him, certainly not a bad plot. They laugh and he proceeds to fix her a drink. 
 At that moment, after he has left to prepare the drink, Angela is joined at the bar by her sister. She learns that her father, one of the City's Board of Governors, has just been notified of an incredibly important theft of a valuable codex from the City Library.
-* (The player has to actually click on her sister's icon or she may also leave the bar without talking to her; if she does leave, she can explore the world a bit but no new areas are unlocked yet.)
-* (There can be random other people at the bar who could provide feeler convo.)
-Angela is curious and does get a few information from her sister that the latter has heard of heard of: rumour has it, there is a solid ready-to-publish idea in that codex and that is why it was sought after the underground ghost writing market; now, a lot of people are rushing to put their hands on it. Angela ponders if they could get it back and use it themselves, to which her sister reprimands her; this belongs back to the library and would not be moral to be used in such a way. Each one must be responsible for their own ideas.
+Angela is curious and does get a few pieces of information from her sister: rumour has it, there is a solid ready-to-publish idea in that codex and that is why it is so valuable to end up in the underground ghost writing market; now, a lot of people are rushing to put their hands on it. 
+Angela ponders if they could get it back and use it herself, to which leading her sister to reprimand her: using the codex in such a way would not be moral. Each one must be responsible for their own ideas.
+* The player has to actually click on her sister's icon or she may also leave the bar without talking to her; if she does leave, she can explore the world a bit but no new areas are unlocked yet.
+* There can be other random people at the bar who could provide feeler convo.
 
 #### Scene 4 [Library]:
-Angela is frustrated; the codex idea would be perfect for her but she has neither the means to access the underground network nor any other information on it to seek it out herself. Seeking to do some exploring on her own, she decides to visit the library and do some research.
-After talking with the librarian, she realises that there is an Inner Vault at the premises holding sensitive titles which was the holding place of the codex; this sounds like the perfect place to start her investigation. However, the librarian denies her access, telling her that the vault is currently off limits to anyone but the authorities. Walking around the library a bit, Angela reads an excert from a book on the Capitol and realises that the founding year of the city may also be the Vault's password (remembering her father telling her that usually government passwords are linked to their history that way). She tries the password and enters the Vault.
+Angela is frustrated; the codex idea would be perfect for her, but she has neither the means to access the underground network herself, nor any other information on it to seek it out. Seeking to do some exploring on her own, she decides to visit the library and do some research.
+After talking with the librarian, she realises that there is an Inner Vault at the premises holding sensitive titles, which was the holding place of the codex. That sounds like the perfect place to start her investigation. However, the librarian denies her access, telling her that the vault is currently off limits to anyone but the authorities. 
+Walking around the library a bit, Angela reads an excerpt from a book on the founding of the Capitol and realises that the founding year of the city may also be the Vault's password (remembering her father telling her that usually government passwords are linked to their history that way). She tries the password and enters the Vault.
 * [Side Story: Angela may find the Creative Curations book and present it to the librarian which unlocks the Six Portraits side quest; if Angela gathers all portraits, she presents them to the librarian and gets a commendation]
 
 #### Scene 5 [Vault]:
