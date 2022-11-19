@@ -1,5 +1,4 @@
-The Origin
-Game Story, Initial Draft
+# The Origin: Game Story, Initial Draft
 
 ## Quick Notes
 - The protagonist's name is Angela, she is 23 years old and an aspiring writer. She has participated in many short stories competitions in school and have won praise as an up-and-coming Creativity beacon.
