@@ -17,21 +17,21 @@ MonoBehaviour:
   textScrollSpeed: 50
   textScrollCLip: {fileID: 0}
   narrationTextScrollCLip: {fileID: 0}
-  playScrollAudioEveryCharacter: 1
+  playScrollAudioEveryCharacter: 0
   speechScrollAudioSource: 0
   waitTimeOffset: 0
   displayForever: 0
   displayNarrationForever: 0
   playAnimationForever: 1
   canSkipWithMouseClicks: 1
-  minimumDisplayTime: 1
+  minimumDisplayTime: 0.5
   screenTimeFactor: 0.1
-  allowSpeechSkipping: 0
+  allowSpeechSkipping: 1
   allowGameplaySpeechSkipping: 0
-  skipThresholdTime: 0
+  skipThresholdTime: 0.5
   endScrollBeforeSkip: 0
   ifSkipWhileScrolling: 0
-  scrollingTextFactorsLength: 0
+  scrollingTextFactorsLength: 1
   syncSubtitlesToAudio: 0
   useAssetBundles: 0
   searchAudioFiles: 1
@@ -48,8 +48,8 @@ MonoBehaviour:
   usePlayerRealName: 0
   separateSharedPlayerAudio: 0
   placeAudioInSubfolders: 0
-  separateLines: 0
-  separateLinePause: 1
+  separateLines: 1
+  separateLinePause: 0.2
   resetExpressionsEachLine: 1
   lines: []
   languages: []

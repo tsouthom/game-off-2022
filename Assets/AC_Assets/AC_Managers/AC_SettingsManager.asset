@@ -37,7 +37,7 @@ MonoBehaviour:
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 1
   playerSwitching: 1
-  player: {fileID: 436939059892057509, guid: e7efe7265de234036911d92b767920a6, type: 3}
+  player: {fileID: 7839854415228962887, guid: 87ebcb9b6dcfc48a4a1c6ce11a2b1a01, type: 3}
   players: []
   movementMethod: 0
   inputMethod: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
   hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   disableFreeAimWhenDraggingPickUp: 0
-  runConversationsWithKeys: 1
+  runConversationsWithKeys: 0
   clickUpInteractions: 0
   defaultMouseClicks: 1
   allowGameplayDuringConversations: 0
@@ -147,9 +147,9 @@ MonoBehaviour:
   touchUpInteractScene: 0
   forceAspectRatio: 0
   aspectRatioEnforcement: 1
-  wantedAspectRatio: 1.667
+  wantedAspectRatio: 1.7777778
   maxAspectRatio: 2.39
-  renderBorderCamera: 1
+  renderBorderCamera: 0
   landscapeModeOnly: 1
   cameraPerspective: 0
   cacheCameraMain: 0
@@ -178,9 +178,9 @@ MonoBehaviour:
   highlightMaterialPropertyOverride: 
   disableHotspotsWhileDraggingPlayer: 1
   hotspotIconSize: 0.04
-  playerFacesHotspots: 0
+  playerFacesHotspots: 1
   onlyFaceHotspotOnSelect: 0
-  scaleHighlightWithMouseProximity: 0
+  scaleHighlightWithMouseProximity: 1
   highlightProximityFactor: 4
   occludeIcons: 0
   hideIconUnderInteractionMenu: 0
@@ -236,10 +236,10 @@ MonoBehaviour:
   speechAttentuationParameter: speech
   defaultLanguage: 0
   defaultVoiceLanguage: 0
-  defaultShowSubtitles: 0
-  defaultSfxVolume: 0.9
+  defaultShowSubtitles: 1
+  defaultSfxVolume: 0.263
   defaultMusicVolume: 0.6
-  defaultSpeechVolume: 1
+  defaultSpeechVolume: 0.233
   showDebugLogs: 0
   printActionCommentsInConsole: 0
   actionCommentLogging: 1
