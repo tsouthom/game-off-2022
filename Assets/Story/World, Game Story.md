@@ -29,38 +29,21 @@ Walking around the library a bit, Angela reads an excerpt from a book on the fou
 * [Side Story: Angela may find the Creative Curations book and present it to the librarian which unlocks the Six Portraits side quest; if Angela gathers all portraits, she presents them to the librarian and gets a commendation]
 
 #### Scene 5 [Vault]:
-In the Vault, Angela stumbles upon a mysterious figure whom she startles. 
-The mysterious figure flees without talking, but upon close examination Angela discovers a pass-key. She has no idea where this fits. She does a little more digging and finds a notebook on "underground activities progress". It seems that an underground project is going well , but seems to be suffering from a security issue, a leak; the author is calling upon the recipient of the report to tighten security.
-Angela takes the notebook with her. She also gets (if the player finds it and takes it) a rare manuscript and an assistant librarian's keycard.
-
-#### Scene 6 [Library]:
-Back at the Library (upstairs), Angela googles the image of the pass-key (dragging and dropping the key in a computer). She finds out that it is a standard-issue Government Pass-key used used at the Government House. It also appears deactivated.
-Angela ponders that she must know someone with a government affiliation that could help her off the books [clue: the barman].
-* [If Angela googles the rare manuscript she learns that is rare, which she knew, and a random latin quote - every time she googles the manuscript she will get a different quote from a wide array of quotes on creativity, leadership and innovation; a little easter egg]
-* [Angela can google all inventory items; if we do not specify anything new, she will just get their normal descriptions]
-
-#### Scene 7 [Bar]:
-Angela realises that the barman can help her and heads over to the bar.
-The barman is relactant at first; Angela has to persuade him a little bit through dialogue. She explains that she is after this mysterious underground idea and that this could be the key to it.
-The barman reveals that he can help and that he is indeed part of the "underground game", but wants something in return; he is in the business of trading valuable works of art and writing, and if Angela can procure one for him, he will help her out. 
-[Angela needs the rare manuscript to proceed] Angela gives the barman the rare Roman manuscript and he proceeds to re-activate the key. He also explains that this is not an ordinary key; Government keys have patterns that reflect the area they are to be used for, and this one seems like an Official's Lounge Key. 
-The barman also adds that he feels this is weird, since the Official's Lounge at Government House is never locked (being more of a common area) and while coming and going during his police days, he never saw a lock there.
-Angela also questions the barman on the underground game. He proceeds to explain that there is an underground network of sellers and buyers for creative ideas and works. For the right price, you can buy anything from an initial but innovative writing idea all the way to a completed novel you can publish in your name. Angela is appalled, but at the same time intrigued; this could save her career after all.
-
-#### Scene 8 [Government House]:
-Angela visits Government House; making an excuse of visiting her father; she is told to wait for him at the Official's Lounge while he is wrapping up a meeting. 
-While there, Angela solves a small puzzle (gethering some pieces that connect together and fit on a wall block) that reveals a keycard hole in the wall.
-She proceeds to use the pass-key, which reveals a hidden corridor. Angela decides to go in.
-* [A small fit-the-pieces-together puzzle, very simple in programming but difficult in actually filling the pieces; we will copy one online.]	
-
-#### Scene 9 [Old Abandoned School]
-Angela finds herself at an old abandoned school where she catches the thief from the vault resting. The thief is startled but they engage in conversation, with Angela demanding the codex back. Through convo, the thief reveals that she is part of an underground society dedicated to producing ideas for a living which go directly to the government; she is frustrated by this way of life and so she has taken up selling the ideas in order to gain enough money to buy her way out and into society proper. 
+In the Vault, Angela stumbles upon a mysterious figure whom she startles.
+The thief is startled but they engage in conversation, with Angela demanding the codex back. Through convo, the thief reveals that she is part of an underground society dedicated to producing ideas for a living which go directly to the government; she is frustrated by this way of life and so she has taken up selling the ideas in order to gain enough money to buy her way out and into society proper. 
 She explains what is going on with the underground society and its twisted existance: while people live relatively normal lives underground, they do not enjoy the benefits and the luxury of the overground world. However, she is not able to answer how this actually benefits the world above. 
 She also reveals that she got into the Vault to get the codex but then returned to cover her tracks, and in the process she saw the report on the underground security status; figuring out this was about her, she tried to steal it, only to be foiled by the player.
 Armed with this knowledge, Angela decides to confront her father, so she heads back to the Government's Office.
+Upon close examination of the area, Angela also discovers a pass-key. She has no idea where this fits, but takes it anyway, with a thought of doing more research. She also gets (if the player finds it and takes it) a rare manuscript and an assistant librarian's keycard.
 * [Angela has a choice: turn the thief in to the police or retrieve the codex for herself. This does not affect the endings - those will be affected by the player's final choice - but does affect the badge the player gains at the end, or perhaps the post-ending, what happened after the player's final choice and corresponding ending.]
 
-#### Scene 10 [Governor's Office, Government House]
+#### Scene 6 [Library]:
+Back at the Library (upstairs), Angela googles the image of the pass-key (dragging and dropping the key in a computer). She finds out that it is a standard-issue Government Pass-key used used at the Government House. It also appears deactivated. Doing more digging, the key activates and a digital notebook on an "underground activities progress report" appears. It seems that an underground project is going well, but seems to be suffering from a security issue, a leak; the author is calling upon the recipient of the report to tighten security.
+Angela combines the new report with the thief's testimony to get the revelation that this could be a darker government secret. She decides to go and talk to her father about it.
+* [If Angela googles the rare manuscript she learns that is rare, which she knew, and a random latin quote - every time she googles the manuscript she will get a different quote from a wide array of quotes on creativity, leadership and innovation; a little easter egg]
+* [Angela can google all inventory items; if we do not specify anything new, she will just get their normal descriptions]
+
+#### Scene 7 [Governor's Office, Government House]
 Angela is shown in to the Governor's Office on the last floor of the Government House, where she meets her father. She confronts him about the underground society and he reveals the truth: that this is a system set in parallel to uphold the illusion of internal Creativity. 
 The people in the underground society live in bliss; they are paid well and they live without knowledge of the outside world, happy in their work. At the same time, the overground society prospers. The central computer behind him upholds the entire system; it processes the ideas from bellow, it distributes them to the pillars of society (people like him), it keeps security running and it monitors society for cliches which then it uproots (indirectly, through contacting the police force or publishers).
 The player has the following options:
@@ -77,24 +60,3 @@ And then we have chicken wings. At least I will, you can join me or not, it is u
 The End
 
 OR NOT? I don't know, I haven't figured it out yet what happens after this. Maybe I will live happily ever after and Elon will lead Twitter to bankruptcy. I mean, it is a Brave New World out there, we'll see.
-
-## Story and Mechanics Notes
-* The thief, Eurydice, is part of the underground, she sells some of the ideas to make a living or to save her family
-	- She was after the vault notebook to cover her tracks.
-* By clicking on a computer without dropping an item, the game gives a random message urging the player to google something
-* The Government House connects to an abandoned School through the Official's Lounge; the underground network uses this to enter and leave Government House unnoticed.
-
-## Assets, Initial Draft at Complete List
-* The vault notebook
-* The vault pass-key
-* Assistant librarian's keycard
-* A rare manuscript on ancient Roman flora and fauna
-* A computer terminal
-
-## Characters
-* The barman
-* The librarian
-* The thief
-* The sister
-* The official at Government House
-* The father
