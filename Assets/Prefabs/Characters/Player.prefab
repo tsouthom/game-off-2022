@@ -538,15 +538,15 @@ MonoBehaviour:
       maxAngle: 360
     isUpgraded: 1
   angleSnapping: 0
-  walkSpeedScale: 10
+  walkSpeedScale: 12
   runSpeedScale: 20
   reverseSpeedFactor: 1
   canRunInReverse: 1
   turnSpeed: 7
   acceleration: 6
-  deceleration: 0
+  deceleration: 6
   turnBeforeWalking: 1
-  runDistanceThreshold: 1
+  runDistanceThreshold: 2
   antiGlideMode: 1
   retroPathfinding: 0
   ignoreGravity: 1
