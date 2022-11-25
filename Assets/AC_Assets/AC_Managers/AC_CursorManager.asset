@@ -182,7 +182,24 @@ MonoBehaviour:
     label: Pick up
     lineID: -1
     id: 3
+  - texture: {fileID: 0}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Go to
+    lineID: -1
+    id: 4
   unhandledCursorInteractions:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
