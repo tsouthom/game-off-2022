@@ -239,8 +239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  title: Loading...
-  slotSize: {x: 6.9986005, y: 4.1666665}
+  title: LOADING...
+  slotSize: {x: 6.9010415, y: 4.398148}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -261,18 +261,18 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 0
+  linkedUiID: 139960
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 9.0018
-    y: 9.0018
-    width: 126
-    height: 45
+    x: 19.199999
+    y: 19.199999
+    width: 265
+    height: 95
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
-  _label: Loading...
+  _label: LOADING...
   anchor: 6
   textEffects: 0
   outlineSize: 2
@@ -1039,8 +1039,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
-  canvas: {fileID: 0}
+  menuSource: 1
+  canvas: {fileID: 6406692956523536585, guid: 18b08eadd71594541848ed5af9c049b2, type: 3}
   canvasAssetKey: 
   canvasID: 0
   rectTransform: {fileID: 0}
@@ -1050,9 +1050,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 16
   title: Loading
-  manualSize: {x: 101, y: 10.5001745}
+  manualSize: {x: 101, y: 10.897822}
   positionType: 1
-  manualPosition: {x: 969.0018, y: 1023.2991}
+  manualPosition: {x: 1939.2001, y: 2042.3036}
   positionSmoothing: 0
   alignment: 6
   toggleKey: 
@@ -1123,13 +1123,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 1809.3617, y: 104.400085}
+  biggestElementSize: {x: 3859.2002, y: 216.19296}
   rect:
     serializedVersion: 2
-    x: 59.819984
-    y: 966.59814
-    width: 1818.3635
-    height: 113.401886
+    x: 0
+    y: 1924.607
+    width: 3878.4001
+    height: 235.39296
   showInFilter: 1
 --- !u!114 &-7059307365037634128
 MonoBehaviour:
@@ -5603,14 +5603,14 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 0
+  linkedUiID: 164812
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 9.0018
-    y: 63.0036
-    width: 1800.3599
-    height: 41.396484
+    x: 19.199999
+    y: 133.4
+    width: 3840.0002
+    height: 82.79297
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}
@@ -5618,7 +5618,7 @@ MonoBehaviour:
   timerTexture: {fileID: 2800000, guid: 681d61a077bb84b4aa05cc6d42d19cfd, type: 3}
   timerType: 3
   uiSelectableHideStyle: 0
-  smoothingFactor: 0
+  smoothingFactor: 0.689
   autoSetVisibility: 0
 --- !u!114 &4062988376677253900
 MonoBehaviour:
