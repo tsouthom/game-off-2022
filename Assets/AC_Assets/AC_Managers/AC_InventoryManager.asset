@@ -63,6 +63,7 @@ MonoBehaviour:
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     carryOnStartID: -1
     useSeparateSlots: 0
@@ -118,6 +119,7 @@ MonoBehaviour:
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     carryOnStartID: -1
     useSeparateSlots: 0
@@ -173,6 +175,7 @@ MonoBehaviour:
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     carryOnStartID: -1
     useSeparateSlots: 0
@@ -228,6 +231,7 @@ MonoBehaviour:
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
     unhandledCombineActionList: {fileID: 0}
     carryOnStartID: -1
     useSeparateSlots: 0

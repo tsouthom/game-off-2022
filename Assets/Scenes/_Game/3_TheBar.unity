@@ -4250,6 +4250,59 @@ Transform:
   m_Father: {fileID: 2004482880}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &1074077750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 2
+    skipActionActual: {fileID: 2033251709}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 16
+    y: 423
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7800913440170384199}
+  changeType: 5
+  removeJournalPageMethod: 0
+  menuToChange: Inventory
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 0
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
+  preprocessTextTokens: 0
 --- !u!1 &1099418426
 GameObject:
   m_ObjectHideFlags: 0
@@ -6007,9 +6060,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 3
+    skipActionActual: {fileID: 1074077750}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6020,7 +6073,7 @@ MonoBehaviour:
     x: 18
     y: 264
     width: 300
-    height: 112
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7800913440170384199}
@@ -6801,8 +6854,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 7
-    y: 428
+    x: 1
+    y: 635
     width: 300
     height: 233
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7421,7 +7474,11 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   syncParamValues: 1
-  backupData: []
+  backupData:
+  - className: AC.ActionScene
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":164.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3317895884973307125_0},"chooseSceneBy":1,"sceneNumber":0,"sceneNumberParameterID":-1,"sceneName":"2_TheStreet","sceneNameParameterID":-1,"assignScreenOverlay":false,"onlyPreload":false,"relativePosition":false,"relativeMarker":{"instanceID":0},"relativeMarkerID":0,"relativeMarkerParameterID":-1,"forceReload":false}'
+    endingReferencesBuffer: 
+    endingOverrideIndex: 
 --- !u!61 &3754542215163951527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8296,6 +8353,7 @@ MonoBehaviour:
   - {fileID: 1163371664}
   - {fileID: 1496524614}
   - {fileID: 2033251709}
+  - {fileID: 1074077750}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -8308,4 +8366,16 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   syncParamValues: 1
-  backupData: []
+  backupData:
+  - className: AC.ActionFade
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7800913440170384199_0},"fadeType":0,"isInstant":false,"fadeSpeed":2.0,"fadeSpeedParameterID":-1,"setTexture":false,"tempTexture":{"instanceID":0},"tempTextureParameterID":-1,"forceCompleteTransition":true,"cameraFadePauseBehaviour":0,"fadeCurve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":1.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":1.0,"value":1.0,"inSlope":1.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionMenuState
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":18.0,"y":264.0,"width":300.0,"height":112.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7800913440170384199_0},"changeType":5,"removeJournalPageMethod":0,"menuToChange":"Pause","menuToChangeParameterID":-1,"elementToChange":"","elementToChangeParameterID":-1,"journalText":"","onlyAddNewJournal":false,"doFade":false,"lineID":-1,"journalPageIndex":-1,"journalPageIndexParameterID":-1,"preprocessTextTokens":false}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionMusic
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":7.0,"y":428.0,"width":300.0,"height":233.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7800913440170384199_0},"trackID":3,"trackIDParameterID":-1,"fadeTime":0.0,"fadeTimeParameterID":-1,"loop":true,"isQueued":false,"resumeFromStart":true,"resumeIfPlayedBefore":true,"willWaitComplete":false,"musicAction":0,"loopingOverlapTime":0.0}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000

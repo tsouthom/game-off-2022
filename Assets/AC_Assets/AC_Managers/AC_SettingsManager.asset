@@ -176,7 +176,6 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   highlightMaterialPropertyOverride: 
-  disableHotspotsWhileDraggingPlayer: 1
   hotspotIconSize: 0.04
   playerFacesHotspots: 1
   onlyFaceHotspotOnSelect: 0

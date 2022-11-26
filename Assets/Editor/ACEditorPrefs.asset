@@ -23,5 +23,5 @@ MonoBehaviour:
   editorLabelWidth: 0
   actionNodeWidth: 300
   disableInstaller: 0
-  installPath: Assets/AdventureCreator
+  installPath: Assets/Plugins/AdventureCreator
   autosaveActionListsInterval: 10
