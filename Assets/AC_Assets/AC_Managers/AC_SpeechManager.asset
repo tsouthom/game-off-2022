@@ -22,7 +22,7 @@ MonoBehaviour:
   waitTimeOffset: 0
   displayForever: 0
   displayNarrationForever: 0
-  playAnimationForever: 1
+  playAnimationForever: 0
   canSkipWithMouseClicks: 1
   minimumDisplayTime: 0.5
   screenTimeFactor: 0.1
@@ -34,7 +34,7 @@ MonoBehaviour:
   scrollingTextFactorsLength: 1
   syncSubtitlesToAudio: 0
   useAssetBundles: 0
-  searchAudioFiles: 1
+  searchAudioFiles: 0
   autoNameSpeechFiles: 0
   referenceSpeechFiles: 1
   autoSpeechFolder: Speech
@@ -50,7 +50,7 @@ MonoBehaviour:
   placeAudioInSubfolders: 0
   separateLines: 1
   separateLinePause: 0.2
-  resetExpressionsEachLine: 1
+  resetExpressionsEachLine: 0
   lines: []
   languages: []
   languageIsRightToLeft: 
@@ -75,6 +75,8 @@ MonoBehaviour:
   speechIDRecycling: 0
   mergeMatchingSpeechIDs: 0
   useSpeechTags: 0
-  speechTags: []
+  speechTags:
+  - ID: 0
+    label: (Untagged)
   previewMenuName: Subtitles
   mergeMatchingIDs: 0

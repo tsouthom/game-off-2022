@@ -272,6 +272,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: LOADING...
   anchor: 6
   textEffects: 0
@@ -305,7 +306,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 88
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -390,7 +391,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 100
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -460,7 +461,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 66
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -530,7 +531,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 73
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -761,6 +762,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: 'Current:'
   anchor: 3
   textEffects: 0
@@ -794,7 +796,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 75
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 2
@@ -1176,7 +1178,8 @@ MonoBehaviour:
     height: 90.68703
   relativePosition: {x: 0.9, y: 1.2}
   numSlots: 1
-  uiText: {fileID: 11405610, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
+  uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Document title
   anchor: 4
   textEffects: 0
@@ -1210,7 +1213,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 94
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -1350,7 +1353,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 80
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -1378,6 +1381,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Load game
   anchor: 4
   textEffects: 0
@@ -1531,7 +1535,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 99
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -1601,7 +1605,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 67
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -1671,7 +1675,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 70
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -1741,7 +1745,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 78
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -1769,6 +1773,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Save game
   anchor: 4
   textEffects: 0
@@ -2078,6 +2083,7 @@ MonoBehaviour:
   relativePosition: {x: 0.9, y: 63}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: State type
   anchor: 4
   textEffects: 0
@@ -2573,6 +2579,7 @@ MonoBehaviour:
   relativePosition: {x: 0.9, y: 55.3}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Objective title
   anchor: 4
   textEffects: 0
@@ -2606,7 +2613,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 83
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -2877,7 +2884,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 98
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -2947,7 +2954,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 74
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -3010,7 +3017,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 90
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -3150,7 +3157,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 82
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -3220,7 +3227,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 103
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -3248,6 +3255,7 @@ MonoBehaviour:
   relativePosition: {x: 72, y: 3}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Output
   anchor: 4
   textEffects: 0
@@ -3463,7 +3471,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 90
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -3560,7 +3568,7 @@ MonoBehaviour:
     height: 1097.28
   relativePosition: {x: 38.2, y: 11}
   numSlots: 1
-  uiText: {fileID: 11435218, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
+  uiText: {fileID: 0}
   pages:
   - lineID: -1
     text: Page text goes here.
@@ -3813,7 +3821,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 81
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -3953,7 +3961,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 108
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -4083,9 +4091,9 @@ MonoBehaviour:
   canvasAssetKey: 
   canvasID: 66084
   rectTransform: {fileID: 0}
-  rectTransformID: 14532472
+  rectTransformID: 344814
   uiTransitionType: 0
-  uiPositionType: 0
+  uiPositionType: 4
   _isLocked: 0
   id: 9
   title: Subtitles
@@ -4109,8 +4117,8 @@ MonoBehaviour:
   visibleElements: []
   transitionProgress: 0
   appearType: 6
-  speechMenuType: 1
-  speechMenuLimit: 1
+  speechMenuType: 0
+  speechMenuLimit: 0
   limitToCharacters: 
   forceSubtitles: 1
   moveWithCharacter: 1
@@ -4425,13 +4433,13 @@ MonoBehaviour:
   sizeType: 0
   positionType: 0
   slotSpacing: 0
-  lineID: 87
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: dfb97a9307a577a41bcacba34b9a7e32, type: 3}
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 0
+  isVisible: 1
   isClickable: 0
   orientation: 0
   gridWidth: 3
@@ -4442,7 +4450,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 14540120
+  linkedUiID: 334558
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -4453,6 +4461,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 1
   _label: Hi!assssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   anchor: 0
   textEffects: 0
@@ -4486,7 +4495,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 95
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -4668,7 +4677,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 71
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 4
@@ -4696,6 +4705,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Options
   anchor: 4
   textEffects: 0
@@ -4729,7 +4739,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 77
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -4861,13 +4871,13 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 86
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 0
+  isVisible: 1
   isClickable: 0
   orientation: 0
   gridWidth: 3
@@ -4878,7 +4888,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 14535516
+  linkedUiID: 334176
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -4889,6 +4899,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Librarian
   anchor: 4
   textEffects: 0
@@ -4897,7 +4908,7 @@ MonoBehaviour:
   variableID: 0
   useCharacterColour: 1
   autoAdjustHeight: 1
-  updateIfEmpty: 0
+  updateIfEmpty: 1
   showPendingWhileMovingToHotspot: 0
   itemPropertyID: 0
   multiplyByItemCount: 0
@@ -4922,7 +4933,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 84
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -4992,7 +5003,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 101
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -5020,6 +5031,7 @@ MonoBehaviour:
   relativePosition: {x: 3, y: 3}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Ingredients
   anchor: 4
   textEffects: 0
@@ -5053,7 +5065,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 91
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -5151,6 +5163,7 @@ MonoBehaviour:
   relativePosition: {x: 27.5, y: 15}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Active save profile
   anchor: 3
   textEffects: 0
@@ -5455,7 +5468,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 89
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -5483,6 +5496,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Objectives
   anchor: 4
   textEffects: 0
@@ -5516,7 +5530,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 97
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -5736,6 +5750,7 @@ MonoBehaviour:
   relativePosition: {x: 0.9, y: 70.7}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Description
   anchor: 0
   textEffects: 0
@@ -5909,7 +5924,7 @@ MonoBehaviour:
   sizeType: 0
   positionType: 2
   slotSpacing: 0
-  lineID: 102
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -5937,6 +5952,7 @@ MonoBehaviour:
   relativePosition: {x: 3.7, y: 60}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Inventory
   anchor: 4
   textEffects: 0
@@ -5970,7 +5986,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 72
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -6033,7 +6049,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 89
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -6061,6 +6077,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Container
   anchor: 4
   textEffects: 0
@@ -6403,7 +6420,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 93
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -6642,7 +6659,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 76
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 3.5
@@ -6705,7 +6722,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 79
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -6987,7 +7004,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 96
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 0}
   fontScaleFactor: 2
@@ -7116,7 +7133,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 0
   slotSpacing: 0
-  lineID: 85
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 6c0ad1277a55e49f984184c4eace408d, type: 3}
   fontScaleFactor: 2
@@ -7144,6 +7161,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Test
   anchor: 4
   textEffects: 1
@@ -7331,7 +7349,7 @@ MonoBehaviour:
   sizeType: 1
   positionType: 2
   slotSpacing: 0
-  lineID: 92
+  lineID: -1
   alternativeInputButton: 
   font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
   fontScaleFactor: 2
@@ -7359,6 +7377,7 @@ MonoBehaviour:
   relativePosition: {x: 1, y: 54}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Inventory
   anchor: 4
   textEffects: 0
@@ -7420,6 +7439,7 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
+  hideScrollingCharacters: 0
   _label: Profiles
   anchor: 4
   textEffects: 0
