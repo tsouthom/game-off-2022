@@ -26,8 +26,8 @@ MonoBehaviour:
     label: Walk to
     lineID: -1
   addHotspotPrefix: 1
-  allowInteractionCursor: 0
-  allowInteractionCursorForInventory: 0
+  allowInteractionCursor: 1
+  allowInteractionCursorForInventory: 1
   cycleCursors: 0
   onlyAnimateOverHotspots: 0
   leftClickExamine: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   pointerIcon:
-    texture: {fileID: 2800000, guid: 5c83780962ed843c0928648679746938, type: 3}
+    texture: {fileID: 2800000, guid: 4103ff425cd9d4e7c8ead6d89e99bac4, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -59,7 +59,8 @@ MonoBehaviour:
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
     clickOffset: {x: 0, y: 0}
-    frameSpeeds: []
+    frameSpeeds:
+    - 1
     alwaysAnimate: 0
   walkIcon:
     texture: {fileID: 0}
@@ -114,7 +115,7 @@ MonoBehaviour:
     label: to
     lineID: -1
   displayCountSize: 1.6
-  displayCountFont: {fileID: 0}
+  displayCountFont: {fileID: 12800000, guid: 7d09fbbb7d5b24b49800883e0883655b, type: 3}
   displayCountTextEffects: 0
   displayCountColor: {r: 1, g: 1, b: 1, a: 1}
   cursorIcons:
@@ -123,7 +124,7 @@ MonoBehaviour:
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.04
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -139,7 +140,7 @@ MonoBehaviour:
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.04
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -155,7 +156,7 @@ MonoBehaviour:
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.04
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -166,12 +167,12 @@ MonoBehaviour:
     label: Look at
     lineID: -1
     id: 2
-  - texture: {fileID: 0}
+  - texture: {fileID: 2800000, guid: a2a5574110706407cbaa7e4dcb67925e, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.015
+    size: 0.06
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -182,12 +183,12 @@ MonoBehaviour:
     label: Pick up
     lineID: -1
     id: 3
-  - texture: {fileID: 0}
+  - texture: {fileID: 2800000, guid: 01bdb8ce7ad904c61a6b3cfb1ef1ed8c, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.015
+    size: 0.06
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0

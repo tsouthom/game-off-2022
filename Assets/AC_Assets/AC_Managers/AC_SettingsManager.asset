@@ -42,7 +42,7 @@ MonoBehaviour:
   movementMethod: 0
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
-  interactionMethod: 2
+  interactionMethod: 0
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
