@@ -42,13 +42,13 @@ MonoBehaviour:
   movementMethod: 0
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
-  interactionMethod: 0
+  interactionMethod: 2
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
   seeInteractions: 0
   closeInteractionMenuIfTapHotspot: 1
-  stopPlayerOnClickHotspot: 0
+  stopPlayerOnClickHotspot: 1
   cycleInventoryCursors: 1
   scaleCursorSpeedWithScreen: 1
   autoCycleWhenInteract: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
   disableFreeAimWhenDragging: 0
   disableFreeAimWhenDraggingPickUp: 0
   runConversationsWithKeys: 0
-  clickUpInteractions: 0
+  clickUpInteractions: 1
   defaultMouseClicks: 1
   allowGameplayDuringConversations: 0
   walkToHotspotMarkers: 1
