@@ -3718,7 +3718,7 @@ MonoBehaviour:
   rectTransform: {fileID: 0}
   rectTransformID: 14169666
   uiTransitionType: 1
-  uiPositionType: 0
+  uiPositionType: 5
   _isLocked: 0
   id: 5
   title: Conversation
@@ -5439,7 +5439,7 @@ MonoBehaviour:
   fixedOption: 0
   optionToShow: 1
   maxSlots: 5
-  markAlreadyChosen: 1
+  markAlreadyChosen: 0
   alreadyChosenFontColour: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   alreadyChosenFontHighlightedColour: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   showIndexNumbers: 0

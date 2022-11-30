@@ -108,7 +108,7 @@ MonoBehaviour:
   directMovementPerspective: 0
   destinationAccuracy: 0.8
   experimentalAccuracy: 0
-  unityUIClicksAlwaysBlocks: 0
+  unityUIClicksAlwaysBlocks: 1
   pathfindUpdateFrequency: 0
   verticalReductionFactor: 0.7
   rotationsAffectedByVerticalReduction: 1
