@@ -9,7 +9,7 @@ Explore the possibility of a world without cliches through a point-and-click adv
 Is it possible to be creative through your whole life? Right click on people and objects on your screen, left click on items to read more about them, and go through the story of the game to find out.
 
 Made for the Game Off 2022 Game Jam using the following tools:
-* Unity 2021.1
+* Unity 2021.3
 * Photoshop
 * Reaper
 * Stable Diffusion
