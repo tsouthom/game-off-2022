@@ -305,7 +305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.5546875, y: -0.5478506}
+  m_AnchoredPosition: {x: -2.5546875, y: -0.54785156}
   m_SizeDelta: {x: -29.9283, y: -18.6173}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5034158692828433727
@@ -440,7 +440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.5546875, y: -0.5478506}
+  m_AnchoredPosition: {x: -2.5546875, y: -0.54785156}
   m_SizeDelta: {x: -29.9283, y: -18.6173}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5034158692948025853
@@ -1073,7 +1073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5034158693783812472
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1090,10 +1090,10 @@ RectTransform:
   m_Father: {fileID: 8941777018290214498}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 399.99997, y: 122.28538}
+  m_SizeDelta: {x: 799.99994, y: 9.429244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5034158693783812469
 CanvasRenderer:
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Origin
+  m_text: "Untitled Clich\xE9 story"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82c321e52661b479b9c1c7c5a694bf4b, type: 2}
   m_sharedMaterial: {fileID: -2168424451852493045, guid: 82c321e52661b479b9c1c7c5a694bf4b, type: 2}
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 118.3
+  m_fontSize: 76.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

@@ -4217,7 +4217,6 @@ MonoBehaviour:
   fitWithinScreen: 1
   backgroundTexture: {fileID: 0}
   visibleElements:
-  - {fileID: 6668495027429267660}
   - {fileID: 4062988376677253900}
   - {fileID: 5178047702806641224}
   - {fileID: -6139710545730524219}
@@ -6434,7 +6433,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 1
   gridWidth: 3
