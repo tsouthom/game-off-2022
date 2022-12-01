@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3248869662877142951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6638564068188055260}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6638564068188055260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248869662877142951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.195, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7839854415228962884}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7839854414627351531
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,7 +77,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 1.22
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -158,6 +189,7 @@ GameObject:
   - component: {fileID: 7839854415116293831}
   - component: {fileID: 7839854415116293824}
   - component: {fileID: 6776584026561929354}
+  - component: {fileID: 2677326857339622837}
   m_Layer: 0
   m_Name: Player Sprite
   m_TagString: Untagged
@@ -297,6 +329,24 @@ MonoBehaviour:
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
   m_InstanceId: 35292
+--- !u!114 &2677326857339622837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7839854415116293826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c23c0cd1c274961a26f4e9cd5378d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockSorting: 0
+  affectChildren: 1
+  followSortingMap: 1
+  customSortingMap: {fileID: 0}
+  offsetOriginal: 0
+  livePreview: 0
 --- !u!1 &7839854415228962882
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +360,6 @@ GameObject:
   - component: {fileID: 7839854415228962886}
   - component: {fileID: 7839854415228962887}
   - component: {fileID: 7839854415228962880}
-  - component: {fileID: 8103813150880180997}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -332,6 +381,7 @@ Transform:
   m_Children:
   - {fileID: 7839854415116293825}
   - {fileID: 7839854414627351528}
+  - {fileID: 6638564068188055260}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -348,7 +398,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 2
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -469,7 +519,7 @@ MonoBehaviour:
   motionControl: 0
   talkingAnimation: 0
   separateTalkingLayer: 0
-  speechLabel: 
+  speechLabel: Angela
   lineID: -1
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
@@ -488,7 +538,7 @@ MonoBehaviour:
     alwaysAnimate: 0
   useExpressions: 0
   expressions: []
-  speechMenuPlacement: {fileID: 0}
+  speechMenuPlacement: {fileID: 6638564068188055260}
   mapExpressionsToShapeable: 0
   expressionGroupID: 0
   expressionTransitionTime: 0.2
@@ -590,9 +640,9 @@ MonoBehaviour:
   wallReductionOnlyParameter: 1
   walkSound: {fileID: 8300000, guid: 3d2256a79f2c84c8fa187b4f09a6412b, type: 3}
   runSound: {fileID: 0}
-  textScrollClip: {fileID: 8300000, guid: f21f7da487bde46f3ae44b8e0a56334d, type: 3}
+  textScrollClip: {fileID: 8300000, guid: b43f6d87bad1e416098af3d716d03589, type: 3}
   soundChild: {fileID: 7839854414627351530}
-  speechAudioSource: {fileID: 0}
+  speechAudioSource: {fileID: 7839854414627351529}
   headIKTurnFactor: 1
   bodyIKTurnFactor: 0
   eyesIKTurnFactor: 1
@@ -630,21 +680,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.85}
   serializedVersion: 2
   m_Radius: 0.9
---- !u!114 &8103813150880180997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7839854415228962882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6c23c0cd1c274961a26f4e9cd5378d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockSorting: 0
-  affectChildren: 1
-  followSortingMap: 1
-  customSortingMap: {fileID: 0}
-  offsetOriginal: 0
-  livePreview: 0

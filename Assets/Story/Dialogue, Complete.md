@@ -219,14 +219,14 @@ The player needs to google things here, so when they exit the Vault they will ge
 
 Father: Hello, darling. It is good of you to stop by. How are you?
 	> [1] I just heard about the codex, is everything alright?
-		Father: I wish I could say that it was. Unfortunately, the stealing of the codex is a serious breach in our security, and a personal embarashment to me personally.
-			> [2] Embarashment? Why?
+		Father: I wish I could say that it was. Unfortunately, the stealing of the codex is a serious breach in our security, and a personal embarassment to me personally.
+			> [2] Embarassment? Why?
 				Father: I am the head of research on this project and the codex appeared to be extremely valuable; exactly because of its value, I was also co-ordinating with the Security Department of our Police Force on this. As one of Governors of this great city, this could potentially tarnish my good name if the codex is not found soon.
 					>> [3] Is there anything I can do to help?
 						Father: My dear Angela... I wish there was. Although, if you really want to help maybe you could visit the Library and check the situation for yourself? I doubt it will be that easy to retrieve the codex, but maybe you could report back to me on the situation there?
 							> [4] I will do that! You can count on me! [CONVO ENDS]
 	> [5] [Appears after the conversation with the thief/makes [3] disappear as an option] I am coming from the library, Father, and I have troubling news. I may have just discovered that there is an entire cast of people living underground this very city.
-		Father: Hmmm that sounds serious. Are you sure? An entire community leaving underground?
+		Father: Hmmm that sounds serious. Are you sure? An entire community living underground?
 		>> Yes! And I have good knowledge on this.
 			Father: You do? Let me see. [CONVO ENDS. Angela has to present the thief’s testimony to unlock next step.]
 				Father: (Reads testimony) This is certainly a serious accusation Angela. But you have to agree that the story of a thief you got does not make this necessarily real.
