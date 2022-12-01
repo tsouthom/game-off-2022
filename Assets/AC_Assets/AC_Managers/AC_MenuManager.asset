@@ -4217,7 +4217,6 @@ MonoBehaviour:
   fitWithinScreen: 1
   backgroundTexture: {fileID: 0}
   visibleElements:
-  - {fileID: 6668495027429267660}
   - {fileID: 4062988376677253900}
   - {fileID: 5178047702806641224}
   - {fileID: -6139710545730524219}
@@ -4671,10 +4670,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 2
   canvas: {fileID: 0}
   canvasAssetKey: 
-  canvasID: 0
+  canvasID: 335550
   rectTransform: {fileID: 0}
   rectTransformID: 0
   uiTransitionType: 0
@@ -4682,7 +4681,7 @@ MonoBehaviour:
   _isLocked: 0
   id: 17
   title: Endings
-  manualSize: {x: 7.7187505, y: 5.7592587}
+  manualSize: {x: 51.104168, y: 41.592594}
   positionType: 0
   manualPosition: {x: 960, y: 540}
   positionSmoothing: 0
@@ -4753,13 +4752,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 138.6, y: 52.6}
+  biggestElementSize: {x: 971.60004, y: 439.6}
   rect:
     serializedVersion: 2
-    x: 885.9
-    y: 508.9
-    width: 148.20001
-    height: 62.199997
+    x: 469.4
+    y: 315.4
+    width: 981.2
+    height: 449.2
   showInFilter: 1
 --- !u!114 &1551132138992911212
 MonoBehaviour:
@@ -4775,7 +4774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Label
-  slotSize: {x: 6.71875, y: 3.9814816}
+  slotSize: {x: 50.104168, y: 39.814816}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4796,14 +4795,14 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 0
+  linkedUiID: 335616
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
     x: 9.599999
     y: 9.599999
-    width: 129
-    height: 43
+    width: 962.00006
+    height: 430
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -6434,7 +6433,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 1
   orientation: 1
   gridWidth: 3
