@@ -1472,8 +1472,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 364
-    y: 1303
+    x: 370
+    y: 1412
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3187,6 +3187,71 @@ Transform:
   m_Father: {fileID: 1334692373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849132971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee55ab6fc4c1a4080a3e890703f10e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 5
+    skipActionActual: {fileID: 852411039}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  - resultAction: 2
+    skipAction: 3
+    skipActionActual: {fileID: 765687852}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 510
+    y: 815.9829
+    width: 300
+    height: 200
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8940327815548078994}
+  resultActionTrue: 0
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 1
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  chooseSceneBy: 1
+  sceneToCheck: 0
+  chooseSceneByPlayerSwitching: -1
+  sceneNumberParameterID: -1
+  sceneNumber: 0
+  sceneNameParameterID: -1
+  sceneName: 6_GovernmentHouse
+  playerID: -1
+  playerParameterID: -1
+  intCondition: 0
 --- !u!114 &852411039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3220,8 +3285,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 1093
+    x: 9
+    y: 1179
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3666,9 +3731,9 @@ MonoBehaviour:
     skipActionActual: {fileID: 852411039}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 10
+    skipActionActual: {fileID: 849132971}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3679,7 +3744,7 @@ MonoBehaviour:
     x: 14
     y: 883
     width: 300
-    height: 180
+    height: 200
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8940327815548078994}
@@ -9694,6 +9759,7 @@ MonoBehaviour:
   - {fileID: 1347555852}
   - {fileID: 509892707}
   - {fileID: 737566470}
+  - {fileID: 849132971}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
