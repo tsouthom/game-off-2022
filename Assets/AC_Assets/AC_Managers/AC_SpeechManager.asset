@@ -15,7 +15,7 @@ MonoBehaviour:
   scrollSubtitles: 1
   scrollNarration: 0
   textScrollSpeed: 50
-  textScrollCLip: {fileID: 0}
+  textScrollCLip: {fileID: 8300000, guid: b43f6d87bad1e416098af3d716d03589, type: 3}
   narrationTextScrollCLip: {fileID: 0}
   playScrollAudioEveryCharacter: 0
   speechScrollAudioSource: 0
