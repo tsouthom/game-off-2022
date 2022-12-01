@@ -1312,7 +1312,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: Button
+  _label: Quit
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -5680,7 +5680,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: Button
+  _label: New Game
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -5812,7 +5812,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: Button
+  _label: Options
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -6292,7 +6292,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: Button
+  _label: Continue
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
