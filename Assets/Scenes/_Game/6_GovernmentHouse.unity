@@ -3082,8 +3082,8 @@ Camera:
   m_GameObject: {fileID: 990379242}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.056737285, g: 0.20725544, b: 0.7075472, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3708,7 +3708,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   constantID: 0
   parameterID: -1
-  linkedCamera: {fileID: 7686337361024404863}
+  linkedCamera: {fileID: 990379245}
   transitionTime: 4
   transitionTimeParameterID: -1
   timeCurve:
@@ -5877,7 +5877,7 @@ MonoBehaviour:
     x: 81.726074
     y: 357.51706
     width: 300
-    height: 277.12976
+    height: 302
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -8849,8 +8849,8 @@ Camera:
   m_GameObject: {fileID: 7686337361013127327}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
