@@ -4645,7 +4645,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: Gallery
+  hotspotName: the Govenment House
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -7011,6 +7011,51 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1823168982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 8
+    skipActionActual: {fileID: 509892707}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 408
+    y: 939.6116
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8940327815548078994}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 1069349922}
+  affectChildren: 0
+  changeType: 1
 --- !u!114 &1839318502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9829,7 +9874,7 @@ MonoBehaviour:
   - {fileID: 683205042}
   - {fileID: 1482097589}
   - {fileID: 1265196462}
-  - {fileID: 220608901}
+  - {fileID: 1823168982}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

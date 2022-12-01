@@ -254,7 +254,7 @@ MonoBehaviour:
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
     cursorIcon:
-      texture: {fileID: 2800000, guid: 6e7efac84982c4fb28b5e4870630bf96, type: 3}
+      texture: {fileID: 2800000, guid: 2e50ba0be9bc543f599e2a2bcc2df8b8, type: 3}
       isAnimated: 0
       numFrames: 1
       numRows: 1
@@ -361,8 +361,8 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: 5cea45a23dc334958bc9800b04fe88aa, type: 3}
-    activeTex: {fileID: 2800000, guid: 5cea45a23dc334958bc9800b04fe88aa, type: 3}
+    tex: {fileID: 2800000, guid: af955163289e141fb858ec6e3b8d0046, type: 3}
+    activeTex: {fileID: 2800000, guid: af955163289e141fb858ec6e3b8d0046, type: 3}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
     cursorIcon:
