@@ -6580,6 +6580,7 @@ GameObject:
   - component: {fileID: 1562919664903828052}
   - component: {fileID: 1562919664913466772}
   - component: {fileID: 1562919664913466773}
+  - component: {fileID: 1562919664913466774}
   m_Layer: 2
   m_Name: NavCam 1
   m_TagString: Untagged
@@ -6703,6 +6704,21 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1562919664913466774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562919664903762036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 26124
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &1823549107400974412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9149,6 +9165,7 @@ GameObject:
   - component: {fileID: 8074602430098326250}
   - component: {fileID: 8074602430093276458}
   - component: {fileID: 8074602430099938539}
+  - component: {fileID: 8074602430099938540}
   m_Layer: 2
   m_Name: GameCamera2D
   m_TagString: Untagged
@@ -9204,6 +9221,21 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &8074602430099938540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8074602430099833034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 26086
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &8862429178677148371
 MonoBehaviour:
   m_ObjectHideFlags: 0

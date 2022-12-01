@@ -7373,6 +7373,7 @@ GameObject:
   - component: {fileID: 5206329754280940787}
   - component: {fileID: 5206329754286105395}
   - component: {fileID: 5206329754286105396}
+  - component: {fileID: 5206329754286105397}
   m_Layer: 2
   m_Name: NavCam 1
   m_TagString: Untagged
@@ -7511,6 +7512,21 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &5206329754286105397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5206329754280089299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 26042
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &5893262427364283262
 MonoBehaviour:
   m_ObjectHideFlags: 0
