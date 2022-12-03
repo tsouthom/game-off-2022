@@ -1,6 +1,7 @@
 # Untitled Cliché Story
 
 Created as an entry to [Game Off 2022](https://itch.io/jam/game-off-2022)
+[Game page](https://tsouthom.itch.io/untitled-clich-story)
 
 ## Summary
 
